@@ -16,9 +16,9 @@
 					}
 				},
 				fail: () => {
-					uni.navigateTo({
-						url: '/pages/home/login'
-					});
+					// uni.navigateTo({
+					// 	url: '/pages/home/login'
+					// });
 				}
 
 			})

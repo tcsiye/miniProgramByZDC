@@ -2,7 +2,10 @@
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 	    // #ifdef MP-WEIXIN
 		{
-			"path": "pages/global/splash"
+			"path": "pages/global/splash",
+			"app-plus":{
+				"titleNView": true //禁用原生导航栏
+			}
 		},
 		// #endif
 		{
